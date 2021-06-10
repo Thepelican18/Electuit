@@ -1,0 +1,58 @@
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="javascript/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="styles/styles.css">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+
+<title>Electuit</title>
+</head>
+<body class="body_background border-gray">
+    <header class="container-fluid header_background border-gray d-flex">
+
+        <div class="col-6 d-flex flex-wrap align-items-center">
+           <img class="img-thumbnail img-fluid w-5 " src="img/logo.png">
+        </div>
+        <div class="col-6 d-flex flex-row-reverse align-items-center">
+            <a href="login.jsp" class="text-right"><img class="text-right img-fluid w-5 " src="img/icono_perfil.png"></a>
+        </div>
+    
+    </header>
+    <section>
+
+        <canvas id="electuit-canvas" class="border-gray" width="800" height="700"></canvas>
+
+    </section>
+    <section id="tool-bench" class="header_background border-gray w-20 h-70" class="window card z-depth-3" >
+        <div class="white-bar border-gray">
+            <br>
+        </div>
+        <div class="container-fluid d-flex flex-wrap">
+            <div class="col-6 text-center">
+                <label>Generators</label>
+                <img class="component_container border-gray" id="generator"  src="img/generator.png">
+            </div>
+             <div class="col-6 text-center">
+                 <label>Wires</label>
+                <img class="component_container border-gray"  src="img/generator.png">
+             </div>
+             <div class="col-6 text-center">
+                 <label>Bulbs</label>
+                 <img class="component_container border-gray" src="img/generator.png">
+                </div>
+             <div class="col-6 text-center">
+                <label>Resistors</label>
+                <img class="component_container border-gray"  src="img/generator.png">
+             </div>
+        </div>
+    </section>
+    <script src="javascript/jquery-ui/external/jquery/jquery.js"></script>
+    <script src="javascript/jquery-ui/jquery-ui.min.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+</html>

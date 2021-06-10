@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Electuit</title>
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body class="body_background">
+    <header>
+        <nav class="container-fluid header_background border-gray d-flex">
+            <div class="col-6 d-flex flex-wrap align-items-center ">
+                <a href="index.jsp"><img class="img-thumbnail img-fluid w-15" src="img/logo.png"></a>
+            </div>    
+        </nav>
+    </header>
+    
+    <section class="login_background_image row d-flex justify-content-center text-center">
+    
+        <div class=" align-middle">
+            
+           
+            <div class="login_box text-center border-gray p-4 rounded w-120 ">
+                <h6 class="text-left f-white pb-1">Sign up</h6><!-- LOGO -->
+                <form action="modifyUser" method="post">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" name="username" placeholder="Username" required>
+                      </div>
+                      
+                      <div class="form-group"> 
+                        <input type="email" class="form-control" name="email"  aria-describedby="emailHelp" placeholder="Enter email" required>
+                      </div>
+                      <div class="form-group"> 
+                        <input type="password" name="password" class="form-control"  placeholder="Password" required>
+                      </div>
+                 
+                    <div class="form-group"></div>
+                    <input type="submit" value="Register" class="btn btn-info btn-lg btn-block">
+                </form><br>
+                <h6 class="f-white">or</h6>
+                <a href="login.html"  class="btn btn-outline-info border ">Login in</a>
+                </div>
+            </div>
+    
+    </section>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
